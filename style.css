@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #f1f1f1;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
+  border-bottom: 2px solid #00ffd5;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00ffd5;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #bbbbbb;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #00ffd5;
+  color: #0d0d0d;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #00c4a7;
+}
+
+main {
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+section h2 {
+  color: #00ffd5;
+  margin-bottom: 1rem;
+}
+
+section.intro p,
+section.recursos ul,
+section.testemunhos blockquote {
+  color: #cccccc;
+}
+
+.recursos ul {
+  list-style-type: square;
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+.testemunhos blockquote {
+  font-style: italic;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.testemunhos footer {
+  margin-top: 0.5rem;
+  color: #777;
+}
+
+section.cta .botao.destaque {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  background-color: #00ffd5;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+  padding: 2rem 0;
+  border-top: 1px solid #222;
+}
